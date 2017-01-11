@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_color">#ffffff</color>
+    <color name="background_colortop">#321089</color>
+    <color name="background_colorbottom">#000026</color>
+    <color name="wrong_textbottom">#FF0000</color>
+    <color name="word_color">#FFFFFF</color>
+</resources>

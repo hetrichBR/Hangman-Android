@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.hang.soreal.hangman.Categories"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Categories"
+        android:id="@+id/TVcat"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="70dp"
+        android:textColor="@color/main_color"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animals"
+            android:id="@+id/button"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"
+
+            android:background="@drawable/button"
+            android:textColor="@color/main_color"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:onClick="animalsCat" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="U.S. States"
+            android:id="@+id/button2"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"
+
+            android:background="@drawable/button"
+            android:textColor="@color/main_color"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:onClick="statesCat" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Miscellaneous"
+            android:id="@+id/button3"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"
+
+            android:background="@drawable/button"
+            android:textColor="@color/main_color"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:onClick="miscCat" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Countries"
+            android:id="@+id/button4"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"
+
+            android:background="@drawable/button"
+            android:textColor="@color/main_color"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:onClick="countriesCat" />
+    </LinearLayout>
+
+
+</RelativeLayout>
